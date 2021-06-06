@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800;900&display=swap');
+
+:root {
+  --purple: #a85cff;
+  --blue: #0d57df;
+  --turquoise: #00e4e4;
+  --dark-blue: #1c0f3d;
+  --dark: #1a1a1a;
+  --dark-medium: #212121;
+  --dark-light: #313641;
+  --white: #f5f6f9;
+  --grey: #a2a6af;
+  --grey-medium: #707378;
+  --grey-light: #dde4f0;
+}
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Inter', sans-serif !important;
 }
 
 a {
@@ -13,4 +29,40 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.hero {
+  height: 70vh;
+}
+
+.hero .hero-title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-sub-title {
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  color: var(--grey-medium);
+}
+
+.hero-description {
+  font-size: 22px;
+  letter-spacing: 1.1px;
+  font-weight: 400;
+}
+
+.header-logo {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.hero-right-box {
+  margin: auto;
+}
+
+.hero-right-box__image {
+  border-radius: 8px;
 }
