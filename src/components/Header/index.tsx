@@ -1,28 +1,26 @@
 import React from "react";
 import { Button, Flex, Stack, useColorMode } from "@chakra-ui/react";
 import { FiMoon, FiSun, FiArrowRight } from "react-icons/fi";
+import './Header.module.scss';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface Props {}
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const Header = (props: Props) => {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
     <Flex
       as="nav"
-      className="navbar"
       align="center"
       justify="space-between"
       wrap="wrap"
       w="100%"
-      mb={{sm: 0, md: 8}}
-      p={{sm: 8, md: 8}}
+      mb={8}
+      p={8}
       {...props}
     >
       <Stack>
-        <h1 className="header-logo">L.</h1>
+        <h1 className="header-logo">LM.</h1>
       </Stack>
       <Stack
         spacing={8}

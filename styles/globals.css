@@ -51,7 +51,6 @@ a {
   font-size: 22px;
   letter-spacing: 1.1px;
   font-weight: 400;
-  margin-top: 25px !important;
 }
 
 .header-logo {
@@ -65,43 +64,5 @@ a {
 }
 
 .hero-right-box__image {
-  margin: auto;
-}
-
-.hero-right-section {
-  position: relative;
-}
-
-@media(max-width: 767px) {
-  .navbar {
-    padding: 15px;
-  }
-
-  .hero {
-    height: auto;
-    padding: 15px;
-    margin: 0 !important;
-  }
-
-  .hero .hero-title {
-    font-size: 36px;
-  }
-
-  .hero-sub-title {
-    font-size: 22px;
-  }
-
-  .hero-description {
-    font-size: 18px;
-  }
-
-  footer.footer {
-    padding: 15px;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  footer.footer .footer-social-network {
-    margin-bottom: 15px;
-  }
+  border-radius: 8px;
 }
