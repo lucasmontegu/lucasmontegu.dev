@@ -1,7 +1,6 @@
 import React from "react";
 import { Button, Flex, Stack, useColorMode } from "@chakra-ui/react";
 import { FiMoon, FiSun, FiArrowRight } from "react-icons/fi";
-import './Header.module.scss';
 
 interface Props {}
 
@@ -15,12 +14,12 @@ const Header = (props: Props) => {
       justify="space-between"
       wrap="wrap"
       w="100%"
-      mb={8}
-      p={8}
+      mb={{sm: 4, md: 8}}
+      className="navbar"
       {...props}
     >
       <Stack>
-        <h1 className="header-logo">LM.</h1>
+        <h1 className="header-logo">L.</h1>
       </Stack>
       <Stack
         spacing={8}
