@@ -16,16 +16,18 @@ const Footer = (props: Props) => {
       wrap="wrap"
       w="100%"
       p={8}
+      className="footer"
     >
       <Stack
         direction="row"
         spacing={4}
         align="center"
+        className="footer-container-icons"
       >
         <Link href="https://github.com/lucasmontegu"><a target="_blank" rel="noreferrer"><FiGithub size="22" /></a></Link>
         <Link href="https://www.linkedin.com/in/lucasmontegu/"><a target="_blank" rel="noreferrer"><FiLinkedin size="22" /></a></Link>
       </Stack>
-      <Stack><Text size="18">Coded with ❤️ by Lucas Montegú</Text></Stack>
+      <Stack className="footer-container-copy"><Text size="18">Coded with ❤️ by Lucas Montegú</Text></Stack>
     </Flex>
   )
 }

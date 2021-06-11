@@ -35,6 +35,10 @@ a {
   height: 70vh;
 }
 
+.navbar {
+  padding: 32px;
+}
+
 .hero .hero-title {
   font-size: 48px;
   font-weight: 900;
@@ -51,6 +55,7 @@ a {
   font-size: 22px;
   letter-spacing: 1.1px;
   font-weight: 400;
+  margin-top: 25px !important;
 }
 
 .header-logo {
@@ -64,5 +69,40 @@ a {
 }
 
 .hero-right-box__image {
-  border-radius: 8px;
+  margin: auto;
+}
+
+@media(max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 15px;
+  }
+
+  .hero .hero-title {
+    font-size: 34px;
+  }
+
+  .hero .hero-sub-title {
+    font-size: 22px;
+  }
+
+  .hero .hero-description {
+    font-size: 18px;
+  }
+
+  footer.footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  footer.footer .footer-container-icons {
+    margin-bottom: 15px;
+  }
+
+  .navbar {
+    padding: 15px;
+    margin-bottom: 25px !important;
+  }
 }
